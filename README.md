@@ -1,7 +1,7 @@
 About pytransform3d
 ===================
 
-Home: https://github.com/rock-learning/pytransform3d
+Home: https://github.com/dfki-ric/pytransform3d
 
 Package license: BSD-3-Clause
 
@@ -9,9 +9,9 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytransform3d-f
 
 Summary: 3D transformations for Python
 
-Development: https://github.com/rock-learning/pytransform3d
+Development: https://github.com/dfki-ric/pytransform3d
 
-Documentation: https://rock-learning.github.io/pytransform3d/
+Documentation: https://dfki-ric.github.io/pytransform3d/
 
 Current build status
 ====================
