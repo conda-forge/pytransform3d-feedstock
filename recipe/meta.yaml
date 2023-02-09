@@ -1,5 +1,5 @@
 {% set name = "pytransform3d" %}
-{% set version = "2.2.0" %}
+{% set version = "2.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c7ba6b5cd932711c2a5fd96cc7e8808d7199aef78109fa8852c13a380bcef398
+  sha256: 8407677148337f63efb3114a27e2bd45dfc840678920e04c5b826eb03007233e
 
 build:
   noarch: python
