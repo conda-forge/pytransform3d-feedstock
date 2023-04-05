@@ -1,11 +1,11 @@
-About pytransform3d
-===================
+About pytransform3d-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytransform3d-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/dfki-ric/pytransform3d
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytransform3d-feedstock/blob/main/LICENSE.txt)
 
 Summary: 3D transformations for Python
 
