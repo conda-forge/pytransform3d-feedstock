@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -21,17 +21,19 @@ requirements:
     - matplotlib-base
     - numpy
     - pip
-    - python >=2.7
+    - python {{ python_min }}
     - scipy
   run:
     - beautifulsoup4
     - lxml
     - matplotlib-base
     - numpy
-    - python >=2.7
+    - python >={{ python_min }}
     - scipy
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - pytransform3d
 
