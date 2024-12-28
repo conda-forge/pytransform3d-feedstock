@@ -23,6 +23,7 @@ requirements:
     - pip
     - python {{ python_min }}
     - scipy
+    - setuptools
   run:
     - beautifulsoup4
     - lxml
